@@ -6,11 +6,19 @@ Preguntas & respuestas:
 
 A- ¿Qué color de fondo tiene su página en el TESTING ?
 
+-El fondo de la página en la rama TESTING es de color azul.
+
 B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+
+-El fondo de la página en la rama DESARROLLO es de color amarillo.
 
 C- ¿Qué color de fondo tiene su página en el MASTER?
 
+-El fondo de la página en la rama MASTER es de color blanco.
+
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+
+-El favicon que permanece en la rama MASTER es el de BETA.
 
 E- ¿Algún integrante tuvo problemas al hacer el push?
  
