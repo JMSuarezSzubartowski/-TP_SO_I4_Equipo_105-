@@ -21,11 +21,21 @@ D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 -El favicon que permanece en la rama MASTER es el de BETA.
 
 E- ¿Algún integrante tuvo problemas al hacer el push?
- 
+
+-Si, era necesario primero traer los cambios hechos por otros colaboradores con ‘git pull origin “nombre de la rama”’ y recien ahi podiamos hacer el push.
+
 F- ¿Qué problemas surgieron?
 
+-Gamma tuvo problemas a la hora de trabajar en ramas olvidando hacer el “pull” del la rama específica donde se trabajaba antes de empezar a modificarla y luego al hacer el “push” de la rama se presentarian los problemas además de olvidar utilizar el “git fetch origin” también al comienzo del trabajo con la rama.
+
 G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución adoptada?
+
+-Se puede usar el merge o el rebase. En este caso usamos solamente el git merge, lo cual es la opcion mas adecuada para el trabajo que estabamos realizando para evitar que los cambios realizados se apliquen encima de los cambios de la otra rama.
  
 H- ¿Qué sucede si cada uno utiliza el push-f?
- 
+
+-Si cada uno utiliza git push -f estariamos sobreescribiendo los cambios realizados cada vez que se hace el push, por ende solamente se podria ver el push de  gamma.
+
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20 en DESARROLLO ?
+
+-Se puede hacer un merge para fusionar los cambios de la rama TESTING a DESARROLLO, con los comandos: git checkout para cambiar de rama, git merge para traer los cambios y por ultimo git push origin y el nombre de la rama.
